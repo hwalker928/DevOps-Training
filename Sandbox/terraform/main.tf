@@ -1,8 +1,8 @@
 terraform {
         backend "remote" {
-        organization = "example-organization"
+        organization = "hwalker928-org"
         workspaces {
-            name = "example-workspace"
+            name = "hwalker928-ws"
         }
     }
 }
