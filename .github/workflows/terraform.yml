@@ -59,12 +59,8 @@ jobs:
     defaults:
       run:
         working-directory: Sandbox/terraform
-    environment: production
-
-    # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
-    defaults:
-      run:
         shell: bash
+    environment: production
 
     steps:
     # Checkout the repository to the GitHub Actions runner
